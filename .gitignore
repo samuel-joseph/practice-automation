@@ -1,1 +1,2 @@
 /target/
+echo .DS_Store >> .gitignore
