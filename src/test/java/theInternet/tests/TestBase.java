@@ -1,11 +1,11 @@
-package tests;
+package theInternet.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import loadingConfig.TestLoadManager;
+import framework.loadingConfig.TestLoadManager;
 
 public class TestBase {
 	public WebDriver driver;

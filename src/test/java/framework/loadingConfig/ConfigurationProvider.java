@@ -1,4 +1,4 @@
-package loadingConfig;
+package framework.loadingConfig;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
