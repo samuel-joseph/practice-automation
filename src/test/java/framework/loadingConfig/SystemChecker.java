@@ -1,4 +1,4 @@
-package loadingConfig;
+package framework.loadingConfig;
 
 public interface SystemChecker {
 	

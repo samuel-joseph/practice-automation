@@ -1,4 +1,4 @@
-package loadingConfig;
+package framework.loadingConfig;
 
 import java.io.IOException;
 import java.util.HashMap;
