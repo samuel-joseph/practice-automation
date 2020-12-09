@@ -25,5 +25,9 @@ public class TestBase {
 	public void afterMethod() {
 		driver.close();
 	}
+	
+	public String getTitle() {
+		return driver.getTitle();
+	}
 
 }
