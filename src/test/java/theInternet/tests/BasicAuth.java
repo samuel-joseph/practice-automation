@@ -3,6 +3,7 @@ package theInternet.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import framework.TestBase;
 import theInternet.pages.BasicAuthPage;
 
 public class BasicAuth extends TestBase{

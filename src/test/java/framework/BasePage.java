@@ -1,6 +1,9 @@
-package theInternet.pages;
+package framework;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class BasePage {
 	protected WebDriver driver;
@@ -33,5 +36,23 @@ public class BasePage {
 		driver.navigate().refresh();
 		return this;
 	}
-
+	
+	public void rightClick(String id) {
+		Actions actions = new Actions(driver);
+		WebElement target = driver.findElement(By.id(id));
+		actions.contextClick(target).perform();
+	}
+	
+	public void alertAccept() {
+		driver.switchTo().alert().accept();
+	}
+	
+	public void clickToNavigate(WebElement element) {
+		element.click();
+	}
+	
+	public void backPage() {
+		driver.navigate().back();
+	}
+	
 }
