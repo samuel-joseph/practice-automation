@@ -3,6 +3,8 @@ package theInternet.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import framework.BasePage;
+
 public class ChallengingDomPage extends BasePage{
 	
 	String url = "/challenging_dom";

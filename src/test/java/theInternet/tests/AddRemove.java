@@ -3,6 +3,7 @@ package theInternet.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import framework.TestBase;
 import theInternet.pages.AddRemovePage;
 
 public class AddRemove extends TestBase{

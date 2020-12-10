@@ -1,4 +1,4 @@
-package theInternet.pages;
+package framework;
 
 import org.openqa.selenium.WebDriver;
 

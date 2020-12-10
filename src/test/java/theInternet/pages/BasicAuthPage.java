@@ -2,6 +2,8 @@ package theInternet.pages;
 
 import org.openqa.selenium.WebDriver;
 
+import framework.BasePage;
+
 public class BasicAuthPage extends BasePage{
 
 	public BasicAuthPage(String url, WebDriver driver) {

@@ -2,6 +2,8 @@ package theInternet.pages;
 
 import org.openqa.selenium.WebDriver;
 
+import framework.BasePage;
+
 public class MainPage extends BasePage{
 	
 	public MainPage(String url, WebDriver driver) {
