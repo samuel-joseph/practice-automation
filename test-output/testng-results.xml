@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-10T04:34:07Z" name="Default suite" finished-at="2020-12-10T04:34:09Z" duration-ms="2168">
+  <suite started-at="2020-12-10T05:35:05Z" name="Default suite" finished-at="2020-12-10T05:35:07Z" duration-ms="2645">
     <groups>
     </groups>
-    <test started-at="2020-12-10T04:34:07Z" name="Default test" finished-at="2020-12-10T04:34:09Z" duration-ms="2168">
-      <class name="theInternet.tests.ContextMenu">
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:theInternet.tests.ContextMenu@f0da945]" started-at="2020-12-10T04:34:07Z" name="beforeMethod" finished-at="2020-12-10T04:34:08Z" duration-ms="1344" status="PASS">
+    <test started-at="2020-12-10T05:35:05Z" name="Default test" finished-at="2020-12-10T05:35:07Z" duration-ms="2645">
+      <class name="theInternet.tests.DisappearingElements">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:theInternet.tests.DisappearingElements@f0da945]" started-at="2020-12-10T05:35:05Z" name="beforeMethod" finished-at="2020-12-10T05:35:06Z" duration-ms="1226" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a1217f9]]>
+                <![CDATA[org.testng.TestRunner@6db66836]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contextMenu()[pri:0, instance:theInternet.tests.ContextMenu@f0da945]" started-at="2020-12-10T04:34:08Z" name="contextMenu" finished-at="2020-12-10T04:34:09Z" duration-ms="739" status="PASS">
+        <test-method signature="disappearingElement()[pri:0, instance:theInternet.tests.DisappearingElements@f0da945]" started-at="2020-12-10T05:35:06Z" name="disappearingElement" finished-at="2020-12-10T05:35:07Z" duration-ms="1350" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contextMenu -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:theInternet.tests.ContextMenu@f0da945]" started-at="2020-12-10T04:34:09Z" name="afterMethod" finished-at="2020-12-10T04:34:09Z" duration-ms="69" status="PASS">
+        </test-method> <!-- disappearingElement -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:theInternet.tests.DisappearingElements@f0da945]" started-at="2020-12-10T05:35:07Z" name="afterMethod" finished-at="2020-12-10T05:35:07Z" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- theInternet.tests.ContextMenu -->
+      </class> <!-- theInternet.tests.DisappearingElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -46,5 +46,13 @@ public class BasePage {
 	public void alertAccept() {
 		driver.switchTo().alert().accept();
 	}
-
+	
+	public void clickToNavigate(WebElement element) {
+		element.click();
+	}
+	
+	public void backPage() {
+		driver.navigate().back();
+	}
+	
 }

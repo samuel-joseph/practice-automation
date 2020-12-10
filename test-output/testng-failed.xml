@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="theInternet.tests.ContextMenu">
+      <class name="theInternet.tests.DisappearingElements">
         <methods>
-          <include name="contextMenu"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="disappearingElement"/>
         </methods>
-      </class> <!-- theInternet.tests.ContextMenu -->
+      </class> <!-- theInternet.tests.DisappearingElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
